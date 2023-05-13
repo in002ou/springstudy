@@ -1,0 +1,12 @@
+package com.gdu.app11.batch;
+
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.stereotype.Component;
+
+@EnableScheduling
+@Component
+public class RemoveTempfileScheduler {
+
+	// 임시 폴더(temp)의 모든 파일을 매일 새벽 3시에 지우는 스케쥴러
+	
+}

@@ -1,0 +1,5 @@
+package com.gdu.staff.domain;
+
+public class StaffDTO {
+
+}

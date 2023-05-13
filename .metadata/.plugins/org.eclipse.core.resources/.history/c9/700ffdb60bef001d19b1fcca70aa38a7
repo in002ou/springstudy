@@ -1,0 +1,5 @@
+package com.gdu.app11.batch;
+
+public class RemoveWrongfileScheduler {
+
+}

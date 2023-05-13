@@ -1,0 +1,34 @@
+package com.gdu.staff.controller;
+
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.gdu.staff.service.StaffService;
+
+@Controller
+public class StaffController {
+
+	@Autowired
+	private StaffService staffService;
+	
+	@ResponseBody
+	@GetMapping("/list.json")
+	public Map list() {
+		
+	}
+	
+	@ResponseBody
+	@GetMapping("/list.json")
+	public List
+	
+	@GetMapping("/list.json")
+	public ResponseEntity<T>
+	
+}
