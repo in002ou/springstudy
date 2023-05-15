@@ -1,8 +1,0 @@
-package com.gdu.staff.domain;
-
-public class StaffDTO {
-	String sno;
-	String name;
-	String dept;
-	int salary;
-}
